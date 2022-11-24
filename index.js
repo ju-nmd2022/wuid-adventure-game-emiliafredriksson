@@ -6,24 +6,37 @@ rainbowPickedup = false;
 
 const travelButton = document.getElementById("travelButton");
 
+const item2 = document.getElementById("item2");
+
+if (sessionStorage.getItem("randomNumber") != null) {
+  candyPickedup = true;
+}
+
+if (sessionStorage.getItem("candyPickedup") != null) {
+  item1.style.visibility = "visible";
+}
+
 rainbow.addEventListener("click", function () {
   if (candyPickedup === true) {
     rainbowPickedup = true;
-    rainbow.style.top = "300px";
-    rainbow.style.padding = "10px";
+    item2.style.visibility = "visible";
+    travelButton.style.visibility = "visible";
+    alert("You can now travel home!");
+    sessionStorage.setItem("rainbowPickedup", "true");
   } else {
     alert("You need candy!");
   }
 });
 
-travelButton.addEventListener("click", function () {
-  if (rainbowPickedup === true) {
-    alert("You can now travel home!");
-    travelButton.style.visibility = "visible";
-  } else {
-    alert("You need the rainbow to travel!");
-  }
-});
+if (sessionStorage.getItem("rainbowPickedup") != null) {
+  item2.style.visibility = "visible";
+  travelButton.style.visibility = "visible";
+}
 
-if (sessionStorage.getItem("candyPickedup") != null) {
+if (sessionStorage.getItem("keyVisible") != null) {
+  key.style.visibility = "visible";
+}
+
+if (sessionStorage.getItem("keyPickedup") != null) {
+  item3.style.visibility = "visible";
 }

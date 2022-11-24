@@ -50,10 +50,41 @@ body {
   border: 0px solid;
 }
 
+#key {
+  visibility: hidden;
+}
+
 .right {
   grid-column-start: 3;
   grid-column-end: 4;
   text-align: right;
+}
+
+.text {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+}
+
+.itemfield {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  text-align: center;
+}
+
+#item1 {
+  padding: 10px;
+  visibility: hidden;
+}
+
+#item2 {
+  padding: 10px;
+  visibility: hidden;
+}
+
+#item3 {
+  padding: 10px;
+  visibility: hidden;
 }
 
 footer {

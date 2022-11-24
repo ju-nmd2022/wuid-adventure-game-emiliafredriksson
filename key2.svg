@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_10" data-name="Layer 10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 596.11 595.53">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #565656;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-1" cx="306.33" cy="305.39" rx="8.05" ry="7.92" transform="translate(-126.22 306.05) rotate(-45)"/>
+  <rect class="cls-1" x="282.6" y="293.79" width="31.21" height="4.15" transform="translate(296.55 -124.21) rotate(45)"/>
+  <rect class="cls-1" x="284.76" y="284.8" width="2.68" height="5.85" transform="translate(287.25 -118.03) rotate(45)"/>
+  <rect class="cls-1" x="288.73" y="288.35" width="1.73" height="5.2" transform="translate(290.56 -119.56) rotate(45)"/>
+</svg>
