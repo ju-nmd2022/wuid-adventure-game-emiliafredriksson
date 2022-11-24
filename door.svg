@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Door" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 596.11 595.53">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #675d49;
+      }
+
+      .cls-2 {
+        fill: #727373;
+      }
+
+      .cls-3 {
+        fill: #bce4e9;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="220.79" y="79.27" width="149.36" height="68.17" rx="34.09" ry="34.09"/>
+  <rect class="cls-1" x="220.79" y="113.74" width="149.36" height="298.72"/>
+  <ellipse class="cls-2" cx="343.72" cy="247.02" rx="16.47" ry="6.13"/>
+  <ellipse class="cls-3" cx="297" cy="170.42" rx="36.38" ry="35.23"/>
+  <rect class="cls-1" x="292.79" y="117.57" width="7.66" height="105.7"/>
+  <rect class="cls-1" x="294.32" y="118.34" width="7.66" height="105.7" transform="translate(469.34 -126.96) rotate(90)"/>
+</svg>
