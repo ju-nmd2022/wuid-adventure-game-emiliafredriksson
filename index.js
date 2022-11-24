@@ -1,3 +1,6 @@
+const candypiece = document.getElementById("candypiece");
+candyPickedup = false;
+
 const rainbow = document.getElementById("rainbow");
 rainbowPickedup = false;
 
@@ -21,3 +24,6 @@ travelButton.addEventListener("click", function () {
     alert("You need the rainbow to travel!");
   }
 });
+
+if (sessionStorage.getItem("candyPickedup") != null) {
+}

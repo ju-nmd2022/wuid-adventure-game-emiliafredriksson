@@ -25,7 +25,6 @@ coin.addEventListener("click", function () {
     candyPickedup = true;
     sessionStorage.setItem("randomNumber", "win");
     sessionStorage.getItem("randomNumber");
-    console.log(sessionStorage.getItem("randomNumber"));
   }
 });
 
@@ -34,14 +33,10 @@ candypiece.addEventListener("click", function () {
     candypiece.style.top = "300px";
     candypiece.style.padding = "10px";
     sessionStorage.setItem("candyPickedup", "true");
-    sessionStorage.getItem("candyPickedup");
-    console.log(sessionStorage.getItem("candyPickedup"));
   } else {
     alert("Flip the coin!");
   }
 });
-
-if (sessionStorage.getItem("candyPickedup") != null);
 
 // rainbow.addEventListener("click", function () {
 //   if (candyPickedup === true) {
